@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/addvert",
+    "type": "magento-module",
+    "license": "MITL",
+    "homepage": "",
+    "description": "Integrate Addvert in your e-commerce. Visit addvert.it for more info.",
+    "authors": [
+    {
+        "name": "Riccardo Mastellone",
+        "email": "riccardo.mastellone@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

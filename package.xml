@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>addvert</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/mit-license.php">MITL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integrate Addvert in your e-commerce. Visit addvert.it for more info.</summary>
+    <description>Addvert is a social platform that will increase your profits! This extension is required to integrate correctly. &#xD;
+The documentation is available at http://addvert.it/api/doc (http://addvert.it/api/doc/en for english)&#xD;
+&#xD;
+This extension will take care of 3 things:&#xD;
+- Adding some Open Graph meta tags to your products so that Addvert can parse them to get the product info&#xD;
+- Adding the 'Add' button to your product pages to allow your costumers to share them! You can choose which layout you prefer in the admin panel&#xD;
+- Tracking the orders originated from addvert.it</description>
+    <notes>First public release after testing</notes>
+    <authors><author><name>Riccardo Mastellone</name><user>riccamasty</user><email>riccardo.mastellone@gmail.com</email></author></authors>
+    <date>2013-12-25</date>
+    <time>00:12:54</time>
+    <contents><target name="magecommunity"><dir name="Addvert"><dir name="Addvert"><dir name="Block"><file name="Button.php" hash="cea48378f6d6fce3b00618467ce2f753"/><file name="OpenGraph.php" hash="46bd3dc96a168f36eac66fa02f5cd76c"/><file name="Tracking.php" hash="6478a4192ab8ae7df6d35edeedb9ef5f"/></dir><dir name="Helper"><file name="Data.php" hash="822997d8d91a8a0953cf4ce3ee8eb488"/></dir><dir name="Model"><file name="Observer.php" hash="2130aaf0e55bab3b4fd0b8addb0848b4"/><dir name="Source"><file name="ButtonLayout.php" hash="8b62501e7f0dcb700a84847c9f3ac527"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="002bc66d3ca9c3c8acc9b84bcfbe7ff0"/><file name="config.xml" hash="ba12e16fe877a7430a4278abb3bc8d44"/><file name="system.xml" hash="ce2929f890d51abe81981b43e6d0f69d"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="addvert"><file name="addvert.xml" hash="d521de855a2d7ce7879e1c35dd12b3bf"/></dir></dir><dir name="template"><dir name="addvert"><file name="button.phtml" hash="ca026c1aca9bcd7b2f2bfd4a772807a5"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Addvert_Addvert.xml" hash="fe2b78eefa501220230a15a6be8c990e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
